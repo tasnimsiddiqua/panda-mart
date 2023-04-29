@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Panda Commerce</title>
+</head>
+
+<body>
+  <header class="container">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-body-white py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel start -->
+    <section class="mt-5 rounded-4 banner ">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center p-5">
+              <div class="col-md-7">
+                <h1><b>Mi LED TV 4A PRO 32</b></h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                  do amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet</p>
+                <h2 id="pink"><b>$1289</b></h2>
+                <button class="btn button">Buy Now</button>
+              </div>
+              <div class="col-md-5 ">
+                <img src="banner-images/tv.png" class="d-block carousel-img ms-auto" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center p-5">
+              <div class="col-md-7 ">
+                <h1><b>Cool dude headphone</b></h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                  do amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet</p>
+                <h2 id="pink"><b>$420</b></h2>
+                <button class="btn button">Buy Now</button>
+              </div>
+              <div class="col-md-5 ">
+                <img src="banner-images/headphone.png" class="d-block carousel-img ms-auto" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center p-5">
+              <div class="col-md-7 ">
+                <h1><b>X-Box</b></h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                  do amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet</p>
+                <h2 id="pink"><b>$600</b></h2>
+                <button class="btn button">Buy Now</button>
+              </div>
+              <div class="col-md-5 ">
+                <img src="banner-images/xbox.png" class="d-block carousel-img ms-auto" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- categories start -->
+    <section class="my-5" id="categories">
+      <h1>Categories</h1>
+      <div class="mt-5">
+        <div class="container overflow-hidden text-center">
+          <div class="row gap-5">
+            <div class="col bg-danger rounded-4 watch">
+              <div class="p-3 d-flex align-items-center justify-content-between">
+                <h2>Watch</h2>
+                <img src="categories/watch.png" alt="">
+              </div>
+            </div>
+            <div class="col bg-primary rounded-4 bag">
+              <div class="p-3 d-flex align-items-center justify-content-between">
+                <h2>Bag</h2>
+                <img src="categories/bag.png" alt="">
+              </div>
+            </div>
+            <div class="col bg-warning rounded-4 shoes">
+              <div class="p-3 d-flex align-items-center justify-content-between">
+                <h2>Shoes</h2>
+                <img src="categories/shoes.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="shoe-bag py-5">
+      <!-- shoes section start -->
+      <section class="shoes-sec container">
+        <h1>Shoes</h1>
+        <div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 rounded-4 border-0">
+                <img src="shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Reebok Dart Men’s Shoes</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <h4>$1289</h4>
+                  <button class=" black-bttn">Buy Now →</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4 border-0">
+                <img src="shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Reebok Pump</h4>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                  </p>
+                  <h4>$799</h4>
+                  <button class=" black-bttn">buy now →</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4 border-0">
+                <img src="shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Reebok All Terrain</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                  <h4>$699</h4>
+                  <button class=" black-bttn"> buy now →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- bag section start -->
+      <section class="bag-sec container mt-5">
+        <h1>Bags</h1>
+        <div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ison Backpac</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <h4>$1289</h4>
+                  <button class="black-bttn">Buy Now →</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Biaowang Backpac</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                  </p>
+                  <h4>$799</h4>
+                  <button class="black-bttn">Buy Now →</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0">
+                <img src="bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content.</p>
+                  <h4>$699</h4>
+                  <button class="black-bttn">Buy Now →</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- contact section start -->
+    <section class="mt-5 container contact d-flex flex-column align-items-center justify-content-center" id="contact">
+      <h1>LET'S STAY IN TOUCH</h1>
+      <p>Get updates on sales specials and more</p>
+      <div class="d-flex">
+        <input class="input rounded-end-0 p-2" placeholder="Please Enter Your Email" type="text">
+        <button class="button rounded-start-0">Send</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center mt-5 mb-2">
+    <small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
